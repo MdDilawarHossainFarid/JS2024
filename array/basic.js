@@ -25,5 +25,25 @@ const fruits1 = new Array("Apple","Banana");
 // console.log(fruits.includes("Banana"));
 // console.log(fruits.includes("Banana1"));
 
+// push and pop method
 
+// fruits.push("Orange");
 
+// fruits.pop("Apple");
+
+// fruits.shift();
+
+const fruits2 = ["Apple", "Mango","Cherry"]
+
+// for(const x of fruits2){
+//     console.log(x);
+// }
+
+const fruits3 = [];
+fruits3.push("Banana","Apple")
+// console.log(fruits3.length)
+console.log(Object.keys(fruits3));
+fruits3[4] = "Mango";
+console.log(Object.keys(fruits3));
+console.log(fruits3.length)
+console.log(fruits3[1]);
