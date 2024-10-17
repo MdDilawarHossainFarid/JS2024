@@ -39,11 +39,26 @@ const fruits2 = ["Apple", "Mango","Cherry"]
 //     console.log(x);
 // }
 
-const fruits3 = [];
-fruits3.push("Banana","Apple")
+// const fruits3 = [];
+// fruits3.push("Banana","Apple")
 // console.log(fruits3.length)
-console.log(Object.keys(fruits3));
-fruits3[4] = "Mango";
-console.log(Object.keys(fruits3));
-console.log(fruits3.length)
-console.log(fruits3[1]);
+// console.log(Object.keys(fruits3));
+// fruits3[4] = "Mango";
+// console.log(Object.keys(fruits3));
+// console.log(fruits3.length)
+// console.log(fruits3[1]);
+
+// const fruits4 = ["Strawberry","Mango"];
+
+// const fruitsShallowCopy = [...fruits4];
+
+// const fruitsCopy1 = Array.from(fruits2)
+
+// console.log(fruitsCopy == fruits4);
+// console.log(fruitsCopy1 == fruits4 )
+
+const fruitsDeepCopy = JSON.parse(JSON.stringify(fruits2)); ;
+console.log( fruitsDeepCopy == fruits2)
+
+
+
