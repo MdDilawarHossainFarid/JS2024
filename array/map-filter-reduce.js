@@ -24,7 +24,7 @@ const friends = [
 
 // console.log(output)
 
-const number = [100,2,3986,4,500];
+const number = [13,17,1,3,5];
 
 // const output = number.reduce(function(initialValue,Currentvlaue){
 //   initialValue = initialValue + Currentvlaue;
@@ -38,6 +38,15 @@ const number = [100,2,3986,4,500];
 
 // return maxVale;
 // },number[0]);
+
+// const CountEvent = number.reduce(function(Count,number){
+//   if(number%2 == 0){
+//     Count++;
+//   }
+//   return Count;
+// },0)
+
+// console.log(CountEvent);
 
 // console.log(maxValeOfArray)
 
