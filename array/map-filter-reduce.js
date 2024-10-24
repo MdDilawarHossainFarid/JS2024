@@ -23,3 +23,13 @@ const friends = [
 // },{}) 
 
 // console.log(output)
+
+const number = [1,2,3,4,5];
+
+const output = number.reduce(function(initialValue,Currentvlaue){
+  initialValue = initialValue + Currentvlaue;
+  return initialValue;
+},0)
+
+
+console.log(output)
