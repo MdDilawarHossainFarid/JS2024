@@ -24,12 +24,22 @@ const friends = [
 
 // console.log(output)
 
-const number = [1,2,3,4,5];
+const number = [100,2,3986,4,500];
 
-const output = number.reduce(function(initialValue,Currentvlaue){
-  initialValue = initialValue + Currentvlaue;
-  return initialValue;
-},0)
+// const output = number.reduce(function(initialValue,Currentvlaue){
+//   initialValue = initialValue + Currentvlaue;
+//   return initialValue;
+// },0)
+
+// const  maxValeOfArray = number.reduce(function(maxVale,Currentvlaue){
+//   if(maxVale < Currentvlaue){
+//     maxVale = Currentvlaue;
+//   }
+
+// return maxVale;
+// },number[0]);
+
+// console.log(maxValeOfArray)
 
 
-console.log(output)
+// console.log(output)
